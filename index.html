@@ -5,47 +5,56 @@
                 <link href="./assets/css/reset.css" rel="stylesheet" type="text/css">
                 <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
             <meta charset="utf-8">
-        </head>
-
-        <body class="page-design">
-            <nav class="navigation-bar">
-                <div class="name">
-                    <h1>James Nickéle</h1>
-                </div>
-                <div class="navigation-links">
-                 <a href="./index.html">About</a></li>
-                 <a href="./portfolio.html">Portfolio</a></li>
-                 <a href="./contact.html">Contact</a></li>
-                </div>
-            </nav>
-
-            <section class="page-content">
-                <div class="container">
-                    <h2>About Me</h2>
-                    <hr>  
-                    <a class="me" href="http://tinypic.com?ref=29e124l" target="_blank"><img src="http://i66.tinypic.com/29e124l.jpg" width= 150px, height= 150 px; border="0" alt="picture of me"></a>
-                    <p>Lorem ipsum dolor sit amet, in mea esse voluptua perfecto, nec cibo scripta euripidis eu. Mea cu eius deseruisse, in ius diam offendit. Cum solet efficiendi reformidans ut, ea congue imperdiet nec. Omnis hendrerit dissentiet in mea, ad mea odio fugit, an consul apeirian deterruisset mea. Malorum persequeris sit id.</p>
-                    <p>Sed verear scaevola scriptorem in, ex omnes mentitum iracundia vix. Legere eirmod mel eu. Ad ius eros quas corrumpit, per ad nullam dictas intellegam. Id diam ceteros qui, sed at docendi suavitate principes, per splendide percipitur te. Ea quas modus sed. In vix numquam tacimates cotidieque, at docendi epicuri insolens sit, rebum epicurei convenire sit id.</p>
-                    <p>Euismod utroque alienum ut nam, stet clita mea ei. Soleat aliquam perfecto sit no. Eloquentiam delicatissimi ex mea. Mei quidam delicata necessitatibus eu. Cu est partem vidisse albucius, an eum timeam pertinax delicata.</p>
-                </div>
-                <div class="sidebar">
-                    <h2>Connect with me!</h2>
-                    <hr>
-                    <div class="icons">
-                        <a href="https://github.com/jimmynicks1" target="_blank"><img src="http://i65.tinypic.com/2moqiqe.png" border="0" alt="Github" width=65px height=65px></a>
-                        <a href="https://www.linkedin.com/in/james-nich%C3%A9le-39163946/"><img src="./assets/images/linkedIn.png" alt="LinkedIn"></a>
-                        <a href="https://stackexchange.com/users/12683289/jnicks"><img src="./assets/images/stackOverflow.png" alt="Stack Overflow"></a>
-                    </div>
-                </div>
-            </section>
-
-            <footer class="footer">
-                <p>&copy;2018 James Nickéle</p>
-            </footer>
-
-
-        </body>
-
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       </head>  
         
+    <body class="page-layout">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a href="./index.html">About</a></li></a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="./portfolio.html">Portfolio</a></li>
+                        </li>
+                        <li class="nav-item">
+                           <a href="./contact.html">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div>
+                <p class="name">James Nickele</p>
+            </div>
+                <div class="float-top-left w-75 outset">
+                        <div class="p-2">About me</div>
+                        <hr>
+                            <a class="me" href="http://tinypic.com?ref=29e124l" target="_blank"><img src="http://i66.tinypic.com/29e124l.jpg" width= 150px, height= 150 px; border="0" alt="picture of me"></a>
+                            <p>Lorem ipsum dolor sit amet, in mea esse voluptua perfecto, nec cibo scripta euripidis eu. Mea cu eius deseruisse, in ius diam offendit. Cum solet efficiendi reformidans ut, ea congue imperdiet nec. Omnis hendrerit dissentiet in mea, ad mea odio fugit, an consul apeirian deterruisset mea. Malorum persequeris sit id.</p>
+                            <p>Sed verear scaevola scriptorem in, ex omnes mentitum iracundia vix. Legere eirmod mel eu. Ad ius eros quas corrumpit, per ad nullam dictas intellegam. Id diam ceteros qui, sed at docendi suavitate principes, per splendide percipitur te. Ea quas modus sed. In vix numquam tacimates cotidieque, at docendi epicuri insolens sit, rebum epicurei convenire sit id.</p>
+                            <p>Euismod utroque alienum ut nam, stet clita mea ei. Soleat aliquam perfecto sit no. Eloquentiam delicatissimi ex mea. Mei quidam delicata necessitatibus eu. Cu est partem vidisse albucius, an eum timeam pertinax delicata.</p>
+                </div>
+                <div id=sidebar class="float-top-right w-25 outset">
+                        <div class="p-2">Connect with Me</div>
+                        <hr>
+                </div>  
+            </div>
+        </div>
+    
+        <div id=footer class="fixed-bottom center">
+                <p>&copy;2018 James Nickéle</p>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
     
     </html>
